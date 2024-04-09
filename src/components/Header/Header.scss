@@ -2,10 +2,13 @@
   color: white;
   background-color: #131921;
   height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .logo {
   height: 30px;
-  width: 100px;
+  // width: 100px;
   margin-right: 24px;
 }
 
@@ -20,10 +23,9 @@
 .header-address {
   display: flex;
   align-items: center;
-  width: 200px;
 }
 .header-address-desc {
-  width: 90px;
+  // width: 90px;
   p {
     font-size: 12px;
     color: #ccc;
@@ -36,4 +38,83 @@
 
 .location-icon {
   margin-right: 5px;
+}
+.header-part-2 {
+  padding: 10px, 5px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+.header-p2-menu {
+  height: 100%;
+  width: 50px;
+  background-color: #ccc;
+  border-radius: 5px 0 0 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: grey;
+}
+.header-p2-search {
+  width: 500px;
+  height: 89%;
+  font-size: 20px;
+}
+.header-p2-search:focus {
+  outline: none;
+}
+.header-p2-icon {
+  width: 45px;
+  background-color: #febd68;
+  height: 100%;
+  color: black;
+  border-radius: 0 5px 5px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-part-3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  div {
+    padding: 0 10px;
+  }
+}
+
+.header-p3-1 {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+.flag-icon {
+  font-size: 20px;
+}
+.header-p3-2 {
+  font-size: 12px;
+  span {
+    font-size: 14px;
+    font-weight: bold;
+  }
+}
+
+.header-p3-3 {
+  font-size: 12px;
+  h4 {
+    font-size: 14px;
+  }
+}
+
+.header-p3-4 {
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+.cart-icon {
+  font-size: 36px;
 }
